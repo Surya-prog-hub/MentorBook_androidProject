@@ -1,0 +1,219 @@
+body{
+    background-color: rgb(54, 54, 50);
+}
+.upper-nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 1px solid;
+  border-bottom-color: white;
+    width: 100%;
+    
+}
+.choose{
+   justify-content: space-between;
+}
+select{
+    color: white;
+    background-color: black;
+    padding:5px;
+    border-color: black;
+    
+}
+select:hover{
+    color: green;
+}
+
+.icon{
+    justify-content: space-between;
+    margin-inline: 10px;
+    margin-left: 10px;
+
+}
+.searchbar{
+    margin-top:-2%;
+    margin-bottom: -3% ;
+    position: absolute;
+    right: 170px;
+    top: 47px;
+    width: 200px;
+    height: 25px;
+}
+.search{
+    margin-top:-2%;
+    margin-bottom: -3% ;
+    position: absolute;
+    right: 150px;
+    top: 47px;
+}
+.sun{
+    margin-top:-2%;
+    margin-bottom: -3% ;
+    position: absolute;
+    right: 120px;
+    top: 47px;
+}
+.signinbtn{
+    margin-top:-2%;
+    margin-bottom: -3% ;
+   
+    position: absolute;
+    right: 50px;
+    top: 47px;
+    color: white;
+    background-color: rgb(46, 39, 55);
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    padding: 5px 7px;
+
+}
+
+.Glogo{
+   position: absolute;
+   right:50%;
+}
+.lowernav{
+    justify-content: space-around;
+    padding-right: 10px;
+    background-color: black;
+    height: 26px;
+    padding: 10px;
+    width: 100%;
+    padding-top: 13px;
+    
+}
+.lowernav a{
+    color: white;
+    text-decoration: none;
+    padding-top: 0;
+    height: 35px;
+
+}
+.lowernav a:hover{
+    color: green;
+   
+   
+}
+
+.courses{
+    display: flex;
+    justify-content: space-around;
+
+}
+.hero-section span{
+    position: absolute;
+    top: 23%;
+    left: 42%;
+  color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.geeksearch{
+    position: absolute;
+    top: 185px;
+    left: 40%;
+
+}
+.geeksearch input{
+    width: 300px;
+    height: 35px;
+    border-radius: 10px 0 0 10px;
+    border: none;
+}
+.geeksearch button{
+    height: 39px;
+    width: 70px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 0 10px 10px 0;
+    
+}
+.geeksearch button:hover{
+    color: green;
+}
+.profession{
+    position: absolute;
+ top: 250px;
+left:30%;
+display: flex;
+
+}
+.profession button{
+   
+    text-decoration: none;
+    color: white;
+    background-color: rgb(41, 39, 39);
+    align-items: center;
+    margin:5px;
+    padding: 5px;
+    border: none;
+    border-radius: 7px;
+    font-size: 14px;
+    
+    
+}
+.desc{
+    border-radius: 7px;
+    display: flex;
+    position: absolute;
+    top: 60%;
+    left: 27%;
+    background-color: rgb(35, 25, 25);
+
+}
+.dev{
+    border-radius: 7px;
+    display: flex;
+    position: absolute;
+    top: 60%;
+    left: 48%;
+    background-color: rgb(35, 25, 25);
+}
+.desc img{
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+}
+.dev img{
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+}
+.placed{
+    border-radius: 7px;
+    display: flex;
+    position: absolute;
+    top: 60%;
+    left: 69%;
+    background-color: rgb(35, 25, 25);
+}.placed img{
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+}
+.dsadesc{
+     
+    position: absolute;
+    top: 58%;
+    background-color: rgb(35, 25, 25);
+    color: white;
+    text-align:left;
+   padding-left: 10px;
+   padding-top: 3px;
+   font-family: sans-serif;
+  
+ 
+}
+.dsadesc span{
+    font-size: 16px;
+}
+h6{
+    color:gray;
+    
+}
+
+
